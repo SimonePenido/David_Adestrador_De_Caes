@@ -21,6 +21,9 @@ Este projeto é uma plataforma para o adestramento de cães, desenvolvido por **
 - JavaScript
 - Bootstrap
 - Leonardo AI (para geração de imagens)
+- Colorlib Template [https://colorlib.com/wp/templates/].
+- Leonardo AI pela geração de imagens.
+- ChatGPT pelos prompts criativos.
 
 ## Como Utilizar
 
