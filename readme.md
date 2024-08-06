@@ -2,6 +2,8 @@
 
 ![David Adestrador de Cães](imagens/capa.jpg)
 
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
 ## Descrição
 
 Este projeto é uma plataforma para o adestramento de cães, desenvolvido por **Simone Penido**. O template utilizado foi retirado do [Colorlib](https://colorlib.com/wp/templates/) e foi customizado para atender às necessidades deste projeto. As imagens foram geradas pelo site Leonardo AI através de prompts do ChatGPT.
