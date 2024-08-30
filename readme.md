@@ -25,7 +25,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## 📸 Capturas de Tela
 
-![Tela Inicial](https://via.placeholder.com/800x400?text=Captura+de+Tela)  
+![Tela Inicial](images/capa1.png)  
 *Captura da página inicial do site.*
 
 ## 📄 Como Contribuir
