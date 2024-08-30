@@ -704,19 +704,24 @@
 			<div class="row d-md-flex justify-content-end">
 				<div class="col-md-12 col-lg-6 half p-3 py-5 pl-lg-5 ftco-animate">
 					<h2 class="mb-4">Consultoria Gratuita</h2>
-					<form action="#" class="appointment">
+					<form method="POST" name="contactForm" class="appointment" data-netlify="true"
+						data-netlify-honeypot="bot-field">
+						<input type="hidden" name="form-name" value="contactForm">
 						<div class="row">
 							<div class="col-md-12">
 								<div class="form-group">
 									<div class="form-field">
 										<div class="select-wrap">
 											<div class="icon"><span class="fa fa-chevron-down"></span></div>
-											<select name="" id="" class="form-control">
+											<select name="service" id="service" class="form-control" required>
 												<option value="">Selecione o serviço</option>
-												<option value="">Adestramento de Cães</option>
-												<option value="">Consultoria Comportamental</option>
-												<option value="">Socialização de Filhotes</option>
-												<option value="">Correção de Comportamento</option>
+												<option value="Adestramento de Cães">Adestramento de Cães</option>
+												<option value="Consultoria Comportamental">Consultoria Comportamental
+												</option>
+												<option value="Socialização de Filhotes">Socialização de Filhotes
+												</option>
+												<option value="Correção de Comportamento">Correção de Comportamento
+												</option>
 											</select>
 										</div>
 									</div>
@@ -724,19 +729,22 @@
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Seu Nome">
+									<input type="text" class="form-control" name="name" id="name" placeholder="Seu Nome"
+										required>
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Número de Telefone">
+									<input type="text" class="form-control" name="phone" id="phone"
+										placeholder="Número de Telefone" required>
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
 									<div class="input-wrap">
 										<div class="icon"><span class="fa fa-calendar"></span></div>
-										<input type="text" class="form-control appointment_date" placeholder="Data">
+										<input type="text" class="form-control appointment_date" name="date" id="date"
+											placeholder="Data" required>
 									</div>
 								</div>
 							</div>
@@ -744,15 +752,20 @@
 								<div class="form-group">
 									<div class="input-wrap">
 										<div class="icon"><span class="fa fa-clock-o"></span></div>
-										<input type="text" class="form-control appointment_time" placeholder="Hora">
+										<input type="text" class="form-control appointment_time" name="time" id="time"
+											placeholder="Hora" required>
 									</div>
 								</div>
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<textarea name="" id="" cols="30" rows="7" class="form-control"
-										placeholder="Mensagem"></textarea>
+									<textarea name="message" id="message" cols="30" rows="7" class="form-control"
+										placeholder="Mensagem" required></textarea>
 								</div>
+							</div>
+							<!-- Campo honeypot para evitar spam -->
+							<div style="display:none;">
+								<label>Não preencha este campo se você for humano: <input name="bot-field"></label>
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
@@ -765,6 +778,7 @@
 			</div>
 		</div>
 	</section>
+
 
 	<footer class="footer">
 		<div class="container">
