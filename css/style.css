@@ -431,7 +431,8 @@ h6,
 }
 
 #banner h1{
-  text-shadow: #011327 1px 1px 10px;
+  text-shadow: #000408 1px 1px 10px;
+  color: #ccf5a5 ;
 }
 
 .display-1 {
