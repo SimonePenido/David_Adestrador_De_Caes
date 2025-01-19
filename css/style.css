@@ -1,4 +1,4 @@
-/*!
+/*
  * Bootstrap v4.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -4890,10 +4890,24 @@ input[type="button"].btn-block {
   white-space: nowrap;
 }
 
+@media (min-width: 576px) {
+  .navbar-brand a {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .navbar-brand a {
+    font-size: 0.5rem;
+  
+}
+}
+
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
 }
+
 
 .navbar-nav {
   display: -webkit-box;
