@@ -423,11 +423,15 @@ h6,
   background-image: url(../images/about-3.jpeg);
   width: auto;
   height: auto;
-  padding: 26em 0;
+  padding: 24em 0;
   background-size: cover;
   background-position: center;
   background-attachment: local;
   border-radius: 10px;
+}
+
+#banner h1{
+  text-shadow: #011327 1px 1px 10px;
 }
 
 .display-1 {
